@@ -204,7 +204,7 @@ int main() {
     d1->add_appointment(a3);
     d1->add_appointment(a4);
     d1->delete_appointment(0);
-
+    h.print_hospitaldetails();
     d1->print_appointment();
 
 
