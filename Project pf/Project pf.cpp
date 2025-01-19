@@ -195,9 +195,14 @@ int main() {
 
     Appointment* a1 = new Appointment(p1, "2025-01-20");
     Appointment* a2 = new Appointment(p2, "2025-01-22");
+    Appointment* a3 = new Appointment(p1, "2025-01-20");
+    Appointment* a4 = new Appointment(p2, "2025-01-22");
+    
 
     d1->add_appointment(a1);  
     d1->add_appointment(a2);
+    d1->add_appointment(a3);
+    d1->add_appointment(a4);
     d1->delete_appointment(0);
 
     d1->print_appointment();
