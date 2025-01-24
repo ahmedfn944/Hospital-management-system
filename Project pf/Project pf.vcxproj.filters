@@ -18,5 +18,22 @@
     <ClCompile Include="Project pf.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="person.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="patient.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appointment.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="doctor.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hospital.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
